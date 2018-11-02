@@ -15,6 +15,10 @@ window.addEventListener("load", () => {
     const input = document.querySelector('input')
     const passwordLength = parseInt(input.value, 10)
     let password = "" // start with empty password
+    if (passwordLength < 4) {
+      alert('Enter a password length that is 4 or more')
+      return
+    }
     
     for (let i = 0; i < passwordLength; i++) {
       
