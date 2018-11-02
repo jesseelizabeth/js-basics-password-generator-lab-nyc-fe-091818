@@ -21,7 +21,7 @@ window.addEventListener("load", () => {
       const randomLowerCaseLetter = Math.round(Math.random() * lowerCaseLetters.length)
       
       // uppercase letters 
-      Math.round(Math.random() * upperCaseLetters.length)
+      const randomUpperCaseLetter = Math.round(Math.random() * upperCaseLetters.length)
     }
   })
   
