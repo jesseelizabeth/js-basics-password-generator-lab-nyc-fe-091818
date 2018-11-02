@@ -22,8 +22,12 @@ window.addEventListener("load", () => {
       password = password + lowerCaseLetters[randomLowerCaseIndex]
       
       // uppercase letters 
-      const randomUpperCaseLetter = Math.round(Math.random() * upperCaseLetters.length)
-      password = password + upperCaseLetters[randomUpperCaseLetter]
+      const randomUpperCaseIndex = Math.round(Math.random() * upperCaseLetters.length)
+      password = password + upperCaseLetters[randomUpperCaseIndex]
+      
+      // numbers 
+      const randomNumberIndex = Math.round(Math.random() * numbers.length)
+      password = password + numbers[randomNumberIndex]
       
     }
   })
