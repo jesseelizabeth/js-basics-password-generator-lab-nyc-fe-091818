@@ -5,7 +5,7 @@ window.addEventListener("load", () => {
   const upperCaseLetters = 
     "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
   const numbers = 
-    ""
+    "0123456789"
   const specialCharacters = 
     ""
   
