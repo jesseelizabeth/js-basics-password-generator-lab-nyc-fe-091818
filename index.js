@@ -10,6 +10,9 @@ window.addEventListener("load", () => {
     " !#$%&()*+,-./:;<=>?@[\]^_{|}~"
   
   // 1. figure out how long our password should be 
+  // 2. make a password from the ground up 
+  // 3. keep track of requirements 
+  
   document.addEventListener('submit', (event) => {
     event.preventDefault()
     const input = document.querySelector('input')
@@ -55,8 +58,5 @@ window.addEventListener("load", () => {
     const result = document.querySelector('#result')
     result.innerText = password
   })
-  
-  // 2. make a password from the ground up 
-  
-  // 3. keep track of requirements 
+
 });
