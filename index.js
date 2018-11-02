@@ -48,6 +48,8 @@ window.addEventListener("load", () => {
       
     }
     console.log(password)
+    const result = document.querySelector('#result')
+    result.innerText = password
   })
   
   // 2. make a password from the ground up 
