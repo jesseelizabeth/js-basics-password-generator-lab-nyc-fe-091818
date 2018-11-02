@@ -45,10 +45,10 @@ window.addEventListener("load", () => {
       if (password.length === passwordLength) {
         break
       }
-      
-      console.log(password)
+    
       
     }
+    console.log(password)
   })
   
   // 2. make a password from the ground up 
