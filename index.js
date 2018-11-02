@@ -17,17 +17,34 @@ window.addEventListener("load", () => {
     let password = "" // start with empty password
     
     for (let i = 0; i < passwordLength; i++) {
+      
       // lowercase letters
       const randomLowerCaseIndex = Math.round(Math.random() * lowerCaseLetters.length)
       password = password + lowerCaseLetters[randomLowerCaseIndex]
+      if (password.length === passwordLength) {
+        break
+      }
       
       // uppercase letters 
       const randomUpperCaseIndex = Math.round(Math.random() * upperCaseLetters.length)
       password = password + upperCaseLetters[randomUpperCaseIndex]
+      if (password.length === passwordLength) {
+        break
+      }
       
       // numbers 
       const randomNumberIndex = Math.round(Math.random() * numbers.length)
       password = password + numbers[randomNumberIndex]
+      if (password.length === passwordLength) {
+        break
+      }
+      
+      // special characters 
+      const randomSpecialCharactersIndex = Math.round(Math.random() * specialCharacters.length)
+      password = password + specialCharacters[randomSpecialCharactersIndex]
+      if (password.length === passwordLength) {
+        break
+      }
       
     }
   })
