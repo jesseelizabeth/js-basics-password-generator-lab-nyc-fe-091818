@@ -7,7 +7,7 @@ window.addEventListener("load", () => {
   const numbers = 
     "0123456789"
   const specialCharacters = 
-    ""
+    " !#$%&()*+,-./:;<=>?@[\]^_{|}~"
   
   // 1. figure out how long our password should be 
   document.addEventListener('submit', (event) => {
