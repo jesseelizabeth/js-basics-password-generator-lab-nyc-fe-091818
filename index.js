@@ -46,6 +46,8 @@ window.addEventListener("load", () => {
         break
       }
       
+      console.log(password)
+      
     }
   })
   
