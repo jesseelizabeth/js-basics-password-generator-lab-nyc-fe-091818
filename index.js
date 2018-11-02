@@ -3,6 +3,10 @@ window.addEventListener("load", () => {
   const lowerCaseLetters = 
     "abcdefghijklmnopqrstuvwxyz"
   const upperCaseLetters = 
+    "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
+  const numbers = 
+    ""
+  const specialCharacters = 
     ""
   
   // 1. figure out how long our password should be 
