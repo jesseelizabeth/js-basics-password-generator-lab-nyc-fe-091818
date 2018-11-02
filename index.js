@@ -17,7 +17,7 @@ window.addEventListener("load", () => {
     let password = "" // start with empty password
     
     for (let i = 0; i < passwordLength; i++) {
-      
+      Math.random()
     }
   })
   
